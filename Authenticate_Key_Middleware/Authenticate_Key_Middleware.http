@@ -1,0 +1,6 @@
+@Authenticate_Key_Middleware_HostAddress = http://localhost:5268
+
+GET {{Authenticate_Key_Middleware_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
